@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;1,800&family=Romanesco&display=swap');
+
+
+
+*{
+    /* margin: 0; */
+    padding: 0;
+}
+.head{
+    line-height: 1;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 2px 2px 8px #f6f3f3;
+    text-shadow: 2px 2px 4px #eeecec;
+    /* background-color: aqua; */
+    background-image: linear-gradient(rgb(31, 7, 103), rgb(253, 253, 251));
+
+}
+.title :hover{
+    text-decoration: underline;
+    letter-spacing: 4;
+} 
+.body{
+    width: 100%;
+    height: 250px;
+    /* background-image: url(backimg.jpg); */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 30px;
+
+    /* background-color: aqua; */
+}
+.img{
+    position: relative;
+    background-blend-mode: color-burn;
+}
+.h4{
+    position: absolute;
+    margin-top: 15px;
+}
+.backimg{
+    
+    /* background-position:center; */
+}
+.searchinput{
+    background-image: linear-gradient(rgb(183, 220, 234), rgb(72, 169, 207));
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-blend-mode: color-burn;
+    /* margin-top: 50px; */
+}
+.inputbox{
+
+    margin: 40px 0
+
+}
+.date{
+    width: fit-content;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.button{
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to right,rgb(243, 71, 74),rgb(213, 118, 136),rgb(231, 147, 196),violet);
+    cursor: pointer;
+
+}
+.date::-webkit-calendar-picker-indicator{
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width:50px;
+background-position:calc(100% - 10px);
+cursor: pointer;
+
+}
+.res{
+    /* background-color: #FF0000; */
+    background-image: linear-gradient(rgb(118, 206, 239), rgb(3, 62, 85));
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px ;
+    text-align: center;
+    padding: 10px;
+    font-size: large ;
+    /* margin-top: 50px; */
+    color: white ;
+    text-shadow: 2px 2px 8px #FF0000;
+    text-shadow: 2px 2px 4px #000000;
+    /* text-transform: lowercase; */
+
+
+}
